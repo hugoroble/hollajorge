@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Título de la página</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      /*ESTABLESCO LA IMAGEN COMO FONDO*/
+      background-image: url("portada.jpeg");
+      /*AJUSTA LA IMAGEN PARA TODA LA PANTALLA*/
+      background-size: cover;
+      /*CENTRA LA IMAGEN*/
+      background-position: center;
+      /*PARA QUE NO SE REPITA*/
+      background-repeat: no-repeat;
+
+      /*AJUSTA LA IMAGEN EN EL FONDO*/
+      height: 100VH;
+      /*ELIMINA EL MARGEN*/
+      margin: 0;
+      /*ASEGURA EL CONTENIDO NO SE SUPERPONGA*/
+      padding: 0;
+    }
+  </style>
+  <style>
+    /* Estilos para el título */
+    h1 {
+      /* Cambia el tipo de letra */
+      font-family: Arial, sans-serif;
+      /* Cambia el tamaño de la letra */
+      font-size: 36px;
+      /* Cambia el color del texto */
+      color: #ebe5e5;
+      /* Cambia el estilo de la letra (normal, cursiva, etc.) */
+      font-style: italic;
+      /* Cambia el peso de la letra (normal, negrita, etc.) */
+      font-weight: bold;
+      /* Cambia el espaciado entre letras */
+      letter-spacing: 2px;
+      /* Alinea el texto al centro */
+      text-align: center;
+      /* Agrega sombra al texto */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+  <style>
+    /* Estilo para el botón */
+    .mi-boton {
+      /* Color del texto del botón */
+      color: #000000;
+      /* Negro */
+      /* Otros estilos de diseño (opcional) */
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Estilos para centrar las imágenes y los botones */
+    .container {
+      text-align: center;
+    }
+
+    .image-wrapper {
+      display: inline-block;
+      margin-bottom: 20px;
+      /* Espacio entre imágenes */
+    }
+  </style>
+
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .menu-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .menu-icon span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+    margin-bottom: 5px;
+  }
+  .menu {
+    display: none;
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 999;
+  }
+  .menu a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+</style>
+</head>
+
+<body>
+
+  <h1> Monster hunter </h1>
+  <div class="container">
+    <button onclick="window.location.href = 'html1.html';">Ir a Página 1</button>
+    <button onclick="window.location.href = 'html2.html';">Ir a Página 2</button>
+    <button onclick="window.location.href = 'html3.html';">Ir a Página 3</button>
+    <button onclick="window.location.href = 'html4.html';">Ir a Página 4</button>
+    <button onclick="window.location.href = 'html5.html';">Ir a Página 5</button>
+  </div>
+
+  <div class="container">
+    <div class="image-wrapper">
+      <img src="juego1.jpeg" alt="Imagen 1" width="300">
+      <br>
+      <a href="https://www.bing.com/ck/a?!&&p=46449726cf60ad56JmltdHM9MTcxMTY3MDQwMCZpZ3VpZD0wNmMwZmZmOS03ZmE2LTY3NjQtMjRmNC1lY2EzN2UxZjY2NDgmaW5zaWQ9NTE5MQ&ptn=3&ver=2&hsh=3&fclid=06c0fff9-7fa6-6764-24f4-eca37e1f6648&psq=download+monster+hunter+freedom+unite&u=a1aHR0cHM6Ly93b3dyb21zLmNvbS9lcy9pc29zL3BsYXlzdGF0aW9uLXBvcnRhYmxlL21vbnN0ZXItaHVudGVyLWZyZWVkb20tdW5pdGUvMzM5ODkuaHRtbA&ntb=1"
+        target="_blank"><button class="mi-boton">Descargar juego</button></a>
+    </div>
+    <div class="image-wrapper">
+      <img src="juego2.png" alt="Imagen 2" width="300">
+      <br>
+      <a href="https://www.bing.com/ck/a?!&&p=39126bcaba6d0381JmltdHM9MTcxMTY3MDQwMCZpZ3VpZD0wNmMwZmZmOS03ZmE2LTY3NjQtMjRmNC1lY2EzN2UxZjY2NDgmaW5zaWQ9NTE5Mg&ptn=3&ver=2&hsh=3&fclid=06c0fff9-7fa6-6764-24f4-eca37e1f6648&psq=download+monster+hunter+freedom+unite+2&u=a1aHR0cHM6Ly93d3cuZ2FtZXpmdWxsLmNvbS9tb25zdGVyLWh1bnRlci1mcmVlZG9tLTItcHNwLWVzcGFub2wtaXNvLW1lZ2Ev&ntb=1"
+        target="_blank"><button class="mi-boton">Descaragar juego</button></a>
+    </div>
+    <div class="image-wrapper">
+      <img src="juego3.jpeg" alt="Imagen 3" width="300">
+      <br>
+      <a href="https://www.bing.com/ck/a?!&&p=9602db717ee080f7JmltdHM9MTcxMTY3MDQwMCZpZ3VpZD0wNmMwZmZmOS03ZmE2LTY3NjQtMjRmNC1lY2EzN2UxZjY2NDgmaW5zaWQ9NTE5NA&ptn=3&ver=2&hsh=3&fclid=06c0fff9-7fa6-6764-24f4-eca37e1f6648&psq=download+monster+hunter+freedom+unite+3&u=a1aHR0cHM6Ly9wc3BnYW1lc2xhbmQuY29tL21vbnN0M3ItaHVudDNyLXBvci0zcmQtYW5kcm9pZC1wYy1wc3AtZXNwYW5vbC8&ntb=1"
+        target="_blank"><button class="mi-boton">Descargar juego</button></a>
+    </div>
+  </div>
+
+   <!-- Icono de menú -->
+   <div class="menu-icon" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+</div>
+
+<div class="menu-icon" onclick="toggleMenu()">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<div class="menu" id="menu">
+  <a href="htmliniciarsecion.html">Iniciar Sesión</a>
+  <a href="#">Subir Foto</a>
+  <a href="#">Ver Información</a>
+</div>
+
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById("menu");
+    if (menu.style.display === "none" || menu.style.display === "") {
+      menu.style.display = "block";
+    } else {
+      menu.style.display = "none";
+    }
+  }
+</script>
+</body>
+</html>

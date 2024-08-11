@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Ropa</title>
+    <style>
+        body {
+          /*ESTABLESCO LA IMAGEN COMO FONDO*/
+          background-image: url("paisaje1.jpg");
+          /*AJUSTA LA IMAGEN PARA TODA LA PANTALLA*/
+          background-size: cover;
+          /*CENTRA LA IMAGEN*/
+          background-position: center;
+          /*PARA QUE NO SE REPITA*/
+          background-repeat: no-repeat;
+  
+          /*AJUSTA LA IMAGEN EN EL FONDO*/  
+          height: 100VH;
+          /*ELIMINA EL MARGEN*/
+          margin: 0;
+          /*ASEGURA EL CONTENIDO NO SE SUPERPONGA*/
+          padding: 0;
+        }
+      </style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .producto {
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 10px;
+            overflow: hidden;
+        }
+        .producto img {
+            float: left;
+            margin-right: 10px;
+            width: 200px;
+            height: auto;
+        }
+        .producto .descripcion {
+            float: left;
+        }
+    </style>
+</head>
+<body>
+
+<div class="producto">
+    <img src="tigrex.jpeg" alt="Monster">
+    <div class="descripcion">
+        <h2>tigrex</h2>
+        <p>Tamaño: 134.45m</p>
+        <p>Abilidades: lasza rocas en tres</p>
+        <p>Partes rompibles: cabeza patas y cola sersenable</p>
+        <p>Descripción: un monstro muy tranquilo pero es mejor corer cuando se ponen rojos sus hojos</p>
+    </div>
+</div>
+
+<div class="producto">
+    <img src="zinogre.jpg" alt="Monster">
+    <div class="descripcion">
+        <h2>zinogre</h2>
+        <p>Tamaño: 322.43m</p>
+        <p>Abilidades: lansa rayos</p>
+        <p>Partes rompibles: los cuernos las uñas y cola sersenable</p>
+        <p>Descripción: hermoso monstro cuando se enoja see transforma en sayayin</p>
+    </div>
+</div>
+
+<!-- Agrega más productos según sea necesario -->
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a mi página</h1>
+    <p>Haz clic en los botones para ver la magia:</p>
+    <button onclick="mostrarLetraPorLetra()">Mostrar Letra por Letra</button>
+    <button onclick="window.location.href='">Ver Video de YouTube</button>
+    <button onclick="window.location.href='URL_DE_LA_IMAGEN'">Ver Imagen de Internet</button>
+    <div id="contenido" style="display: none;"></div>
+    <script>
+        function mostrarLetraPorLetra() {
+            var texto = "Este es un ejemplo de texto que se mostrará letra por letra.";
+            var contenido = document.getElementById("contenido");
+            contenido.style.display = "block";
+            contenido.innerHTML = ""; // Limpiar el contenido
+            var index = 0;
+            var mostrar = setInterval(function() {
+                if (index < texto.length) {
+                    contenido.innerHTML += texto.charAt(index);
+                    index++;
+                } else {
+                    clearInterval(mostrar);
+                }
+            }, 100);
+        }
+    </script>
+</body>
+</html>

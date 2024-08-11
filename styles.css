@@ -1,0 +1,25 @@
+button {
+    /* Establece el diseño de letra personalizado */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #070202; /* Color del texto */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Elimina el borde */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    padding: 10px 20px; /* Ajusta el espaciado interior */
+    margin: 5px; /* Ajusta el margen entre los botones */
+    outline: none; /* Elimina el contorno al hacer clic */
+}
+
+button:hover {
+    /* Estilo cuando el cursor pasa sobre el botón */
+    background-color: rgba(12, 1, 1, 0.3); /* Fondo semi-transparente al pasar el cursor */
+}
+
+button:active {
+    /* Estilo cuando se presiona el botón */
+    background-color: rgba(11, 1, 1, 0.6); /* Fondo semi-transparente cuando se presiona el botón */
+}
+
+
+
